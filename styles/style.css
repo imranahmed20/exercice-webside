@@ -1,0 +1,44 @@
+/* body style */
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    
+}
+/*  container style */
+.container{
+    margin: 0px 100px;
+}
+
+/* header style */
+header{
+    background-color: rgb(238, 226, 207); 
+
+}
+.header-title{
+    font-size: 35px;
+    font-family: 700;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+
+}
+nav ul li{
+    list-style: none;
+}
+nav a{
+    text-decoration: none;
+    padding-right: 30px;
+    font-size: 20px;
+    font-family: 700;
+    color: black;
+    
+}
